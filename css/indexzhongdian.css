@@ -13,22 +13,22 @@ input,button{
 }
 .header{
 	width: 100%;
-	height: 155px;
+	height: 183px;
 }
 .toubox{
 	width: 1220px;
-	height: 155px;
+	height: 100px;
 	margin: 0 auto;
 }
 .logo{
-	width: 600px;
+	width: 650px;
 	height: 100px;
 	margin-top: 32px;
 	float: left;
 }
 .dianhua{
 	width:250px; 
-	height:100px;
+	height:40px;
 	float: left;
 	padding-top: 52px;
 }
@@ -78,7 +78,465 @@ input,button{
 	padding: 0 10px 0 10px;
 	float: left;
 }
-.zhongwen a{
+.zhongwen1 p{
 	color: #7d7d7d;
 	font-size: 16px;
+}
+.shybox{
+	width: 1200px;
+	height:80px;
+	margin: 0 auto;
+}
+.nav{
+	width: 900px;
+	height: 40px;
+	padding-left: -30px;
+	float: left;
+}
+.nav1{
+	width: 85px;
+	height:40px;
+	padding-right: 30px;
+	float: left;
+}
+.nav li{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+}
+.nav li a{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+}
+.nav2{
+	width: 85px;
+	height:40px;
+	background-color: blue;
+	float: left;
+}
+
+.sousuo{
+	width: 230px;
+	height: 40px;
+	float: left;
+	background-color: #ebeaea;
+}
+.sousuokeyword{
+	width: 180px
+	height:40px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+.sousuokeyword p{
+	color: #a7a8a8;}
+
+.sousuotu{
+	width:40px 
+	height:40px;
+	padding-top: 8px;
+	float: right;
+}
+/*漂浮*/
+.piaofu{
+	width: 86px;
+	height: 311px;
+	position: fixed;
+	top: 292px;
+	right: 10px;
+	z-index: 10;
+}
+.piaofu .tops{
+	width: 86px;
+	height: 82px;
+	margin: 0 auto;
+	background: #8d8d8d;
+	text-align: center;
+	font: 14px '微软雅黑';
+	color: #fff;
+	border-bottom: 1px dashed #fff;
+}
+.piaofu .tops img{
+	padding-top: 10px;
+}
+.piaofu .middle{
+	width: 86px;
+	height: 82px;
+	margin: 0 auto;
+	background: #b0b0b0;
+	text-align: center;
+	font: 14px '微软雅黑';
+	color: #fff; 
+	border-bottom: 1px dashed #fff;
+}
+.piaofu .middle img{
+	padding-top: 10px;
+}
+.piaofu .mid{
+	width: 86px;
+	height: 82px;
+	margin: 0 auto;
+	background: #b0b0b0;
+	text-align: center;
+	font: 14px '微软雅黑';
+	color: #fff;
+	border-bottom: 1px dashed #fff;
+}
+.piaofu .mid img{
+	padding-top: 10px;
+}
+.piaofu .bottom{
+	width: 86px;
+	height: 65px;
+	background: #b0b0b0;
+	position: relative;
+}
+.piaofu .bottom img{
+	padding-top: 22px;
+	padding-left: 28px;
+}
+.piaofu .bottom p{
+	padding-top: 10px;
+	text-align: center;
+	font: 10px '微软雅黑';
+	color: #fff;
+}
+.piaofu .bottom .bot{
+	width: 86px;
+	height: 14px;
+	background: #8d8d8d;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+        /*内容开始*/
+.body{
+	width: 100%;
+	height: 2043px;
+	background-color: #f9f9f9;
+}
+.boxa{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+.boxaa{
+	width: 50px;
+	height: 30px;
+	color: #999;
+	float: left;
+}
+.boxab{
+	float: left;
+	color: #999;
+}
+.boxb{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.boxba{
+	width: 100px;
+	height: 40px;
+}
+.boxba p{
+	font-size: 24px;
+}
+.boxc{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+.boxc p{
+	font-size: 14px;
+	color: #666;
+}
+.hr{
+	border: 1px dotted #cfcfcf;
+	width: 1200px;
+	margin: 0 auto;
+}
+.boxd{
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: white;
+}
+.box1{
+	width: 1200px;
+	height: 269px;
+}
+.boxda{
+	width: 1168px;
+	height: 45px;
+	padding-top: 23px;
+	padding-left: 16px;
+
+}
+.boxdaa{
+	width: 1030px;
+	float: left;
+}
+.boxdaa a{
+	font-size: 16px;
+}
+.boxdab{
+	float: right;
+	padding-right: 16px;
+}
+.boxdab a{
+	font-size: 16px;
+}
+.boxe{
+	width: 444px;
+	height: 269px;
+	padding-left: 16px;
+	float: left;
+}
+.boxf{
+	width: 715px;
+	height: 235px;
+	float: left;
+	margin-right: 16px;
+	margin-top: 25px;
+}
+.boxfa{
+	width: 615px;
+	height: 55px;
+	float: left;
+}
+.boxfa p{
+	font-size: 20px;
+}
+.boxfb{
+	width: 80px;
+	height: 55px;
+	float: left;
+}
+.boxfb p{
+	font-size: 12px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.boxfc{
+	width: 713px;
+	height: 100px;
+	float: left;
+}
+.boxfc p{
+	text-indent: 2em;
+	font-size:16px; 
+	line-height:30px;
+}
+.boxfd{
+	width: 72px;
+	height: 20px;
+	float: right;
+}
+.boxfd a{
+	color: red;
+	font-size: 14px;
+}
+.boxg{
+	width: 1090px;
+	height: 200px;
+	margin-left: 16px;
+	float: left;
+}
+.boxga{
+	width: 1090px;
+	height: 50px;
+}
+.boxga p{
+	font-size: 16px;
+}
+.boxh{
+	width:70px; 
+	height:200px;
+	float: left;
+	margin-right: 16px;
+}
+.boxha{
+	width: 70px;
+	height: 50px;
+}
+.boxha p{
+	font-size: 12px;
+	color:#b2b2b2;
+}
+/*底部开始*/
+.bottom{
+	width: 100%;
+	height:365px;
+}
+.bottom1{
+	width: 100%;
+	height: 60px;
+	background-color: #0b4199;
+}
+.box1{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.box1a{
+	width: 40px;
+	height: 33px;
+	padding-top: 15px;
+	float: left;
+}
+.box1b{
+	width:280px;
+	height: 45px;
+	padding-top: 15px;
+	float: left;
+}
+.box1b p{
+	color: white;
+	font-size: 16px;
+}
+.box1c{
+	width: 80px;
+	padding-top: 15px;
+	padding-left: 345px;
+	float: left;
+}
+.box1c p{
+	color: white;
+}
+.box1d{
+	width: 34px;
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 5px;
+	float:left;
+}
+.box1d a{
+	width: 34px;
+	height: 50px;
+	padding-left: 5px;
+}
+.bottom2{
+	width: 100%;
+	height: 305px;
+	background-color: #454545;	
+}
+.box2{
+	width: 1200px;
+	height: 305px;
+	margin: 0 auto;
+}
+.box2a{
+	width: 830px;
+	height: 217px;
+	color: white;
+	padding-top: 60px;
+	float: left;
+}
+.box2a1{
+	width:165px;
+	height: 217px;
+	float: left;
+}
+.box2aa {
+	width: 165px;
+	height: 35px;
+	font-size: 16px;
+}
+.box2ab {
+	width: 165px;
+	height: 25px;
+	font-size: 14px;
+
+}
+.shuxian{
+	width: 0px;
+	height: 200px;
+	margin-top: 42px;
+	color: #525252;
+	float: left;
+}
+.box2b{
+	width: 325px;
+	height:200px;
+	float: left;
+	margin-top: 32px;
+	margin-left: 32px;
+}
+.box2ba{
+	width: 169px;
+	height: 100px;
+}
+.box2bb{
+	width:50px; 
+	height:67px;
+	float: left;
+
+}
+.box2bba{
+	width:60px; 
+	height:16px;
+	margin-bottom:35px; 
+}
+.box2bba p{
+	font-size: 14px;
+	color: white;
+}
+.box2bbb{
+	width:60px; 
+	height:16px; 
+}
+.box2bbb p{
+	font-size: 14px;
+	color: white;
+}
+.box2c{
+	width: 210px;
+	height: 50px;
+	float: left;
+}
+.box2c p{
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+}
+.box2d{
+	width:430px; 
+	height:16px;
+	padding-left: 50px;
+	float: left;
+}
+.box2d p{
+	color: white;
+	font-size: 12px;
+}
+.box2e{
+	width: 440px;
+	height:16px;
+	float: left;
+}
+.box2e p{
+	color: white;
+	font-size: 12px;
+}
+.box2f{
+	width:120px; 
+	height:16px;
+	float: left;
+}
+.box2fa{
+	width: 60px;
+	height:16px;
+	float: left;
+	padding-bottom: 5px;
+}
+.box2fa p{
+	color: white;
+	font-size: 12px;
 }
