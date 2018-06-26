@@ -1,0 +1,490 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+} 
+input,button{
+	outline: none;
+}
+
+     /*首部和banner开始*/
+
+.head{
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	background: url(../img/shouye/header/zuishangfangbeijing.png) no-repeat center center; 
+}
+.headmid{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.wodeshoucang{
+	width: 235px;
+	height: 30px;
+	float: left;
+
+}
+.wodeshoucang li{
+	float: left;
+}
+.wodeshoucang a{
+	color: #333333;
+	font-size: 12px;
+
+}
+.wodeshoucang1{
+	margin-right: 7px;
+}
+.wodeshoucang2{
+	margin-left: 3px;
+}
+.wodeshoucang img{
+	padding-top: 5px; 
+}
+.saomiaojiaru{
+	width: 248px;
+	height: 30px;
+	float: right;
+	padding-top: 4px;
+}
+.saomiaojiaru li{
+	float: right;
+	color: #333333;
+	font-size: 12px;
+	margin-left: 7px;
+}
+.saomiaojiaru a{
+	color: #333333;
+	font-size: 12px;
+}
+.head2{
+	width: 100%;
+	height: 156px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.head2mid{
+	width: 1200px;
+	height: 156px;
+	margin: 0 auto;
+	text-align: center;
+}
+.head2mid li{
+	float: left;
+}
+.ezuzhijiaimg{
+	width: 182px;
+	height: 117px;
+	float: left;
+	background: url(../img/shouye/header/youaiyouweilai.png) no-repeat center center;
+}
+.search{
+	width: 500px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.search1{
+	width: 498px;
+	height: 36px;
+	border: 2px solid #f83838;
+}
+.searchkeyword{
+	width: 405px;
+	height: 36px;
+	float: left;
+}
+.searchkeyword input{
+	width: 400px;
+	height: 36px;
+	float: left;
+	margin-left: 5px;
+	border: none;
+	font-size: 14px;
+}
+.searchbutton{
+	width: 91px;
+	height: 37px;
+	float: right;
+}
+.searchbutton button{
+	width: 91px;
+	height: 36px;
+	background-color: #f83838;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
+.erweima{
+	width: 84px;
+	height: 91px;
+	background: url(../img/shouye/header/erweima.png) no-repeat center center;
+	margin: 0 auto;
+
+}
+.gouwuche{
+	width: 152px;
+	height: 70px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 47px; 
+	background: url(../img/shouye/header/gouwuche.png) no-repeat center 47%;
+}
+.gouwuche a{
+	color: #f14e4e;
+}
+.gouwuche p{
+	margin-left: 25px;
+	font-size: 14px;
+}
+.head2midlist2{
+	margin-left: 197px;
+}
+.head2midlist3{
+	margin-left: 67px;
+}
+.head2midlist4{
+	margin-left: 11px;
+}
+.nav{
+	width: 530px;
+	height: 40px;
+	float: left;
+}
+.nav1{
+	width: 89px;
+	height: 27px;
+	padding-top: 7px;
+	background: url(../img/shouye/header/shouyedisehongkuai.png)no-repeat center center;
+	margin-right: 36px;
+}
+.nav1 a{
+	color: #fff;
+	font-size: 16px;
+}
+.nav2{
+	width: 89px;
+	height: 27px;
+	padding-top: 7px;
+	margin-right: 36px;
+}
+.nav2 a{
+	color: #333333;
+	font-size: 16px;
+}
+.hongxian{
+	width: 100%;
+	height: 3px;
+	margin:0 auto;
+	background: url(../img/shouye/header/dingbuhongsehengxian.png) no-repeat center center;
+}
+.banner{
+	width: 100%;
+	height: 462px;
+	margin:0 auto;
+	background: url(../img/shouye/banner/diyizhangdatu.png) no-repeat center center;
+}
+.bannerspace{
+	width: 100%;
+	height: 429px;
+	margin: 0 auto;
+/*	float: left;*/
+}
+.changepicture{
+	width: 128px;
+	height: 20px;
+	margin: 0 auto;
+}
+.changepicture li{
+	float: left;
+
+}
+.changepicture1{
+	margin-left: 21px;
+	margin-right: 14px;
+}
+.changepicture2{
+	margin-left: 14px;
+	margin-right: 14px;
+}
+.boxblack{
+	width: 240px;
+	height: 462px;
+	float: left;
+	margin-left: -530px;
+	background-color: black;
+}
+.bb1{
+	width: 30px;
+	height: 462px;
+	float: left;
+	padding:22px 0 22px 24px;
+}
+.bb11{
+	width: 20px;
+	height: 25px;
+	margin-bottom: 20px;
+}
+.bb2{
+	width: 120px;
+	height: 462px;
+	float: left;
+	padding:22px 0 22px 24px;
+}
+.bb22{
+	width: 120px;
+	height: 25px;
+	margin-bottom: 20px;
+}
+.bb22 a{
+	color: white;
+}
+     /* 首部和banner结束*/
+
+     /*内容开始*/
+
+.box1{
+	width: 100%;
+	height:60px;
+	background-color: #ffffff;
+}
+.boxp{
+	margin: 0 auto;
+	width: 1200px;
+	height: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.body{
+	width: 100%;
+	height: 1240px;
+	background-color: #ffffff;
+}
+.dabox{
+	width: 1200px;
+	height: 335px;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.xiaobox1{
+	width: 217px;
+	height: 333px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	margin-right: 20px;
+}
+.xiaobox2{
+	width: 217px;
+	height: 333px;
+	border: 1px solid #dbdbdb;
+	float: left;
+
+}
+.boxa{
+	width: 125px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.boxb{
+	width: 115px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.boxb p{
+    font-size: 16px;
+	color: #dddddd;
+}
+.boxc{
+	width: 54px;
+	height: 16px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.boxc p{
+	font-size: 15px;
+}
+.boxd{
+	width: 100px;
+	height: 30px;
+	background-color: red;
+	border-radius: 2px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.boxd p{
+	color: white;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 6px 18px 6px 18px;
+}
+.boxe{
+	width: 160px;
+	height: 143px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.boxf{
+	width: 60px;
+	height: 168px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.boxg{
+	width: 150px;
+	height: 153px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.boxo{
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box7 li{
+	float: left;
+	
+}
+.box7 ul{
+	margin-top: 20px;
+
+}
+.box7a a{
+	border:1px solid #b8b8b8;
+	padding: 10px 15px 10px 15px;
+	margin-right: 20px;
+	color: #b8b8b8;
+}
+     /*尾部开始*/
+
+.redend{
+	width: 100%;
+	height: 86px;
+	margin:0 auto;
+	background: url(../img/shouye/bottom/dibuhongsebeijing.png) no-repeat center center;
+}
+.redend1{
+	width: 1200px;
+	height: 86px;
+	margin:0 auto;
+}
+.redend1 li{
+	float: left;
+	color: #fff;
+}
+.redend1 p{
+	float: right;
+	margin-top: 34px;
+}
+.redendlist1{
+	width: 138px;
+	height: 86px;
+	margin-right: 107px;
+}
+.redendlist1 p{
+	margin-right:3px;
+}
+.redendlist1 img{
+	margin-top:15px;
+}
+.redendlist2{
+	width: 138px;
+	height: 86px;
+	margin-right: 107px;
+	margin-left: 107px;
+}
+.redendlist2 img{
+	margin-top:15px;
+}
+.redendlist3{
+	width: 138px;
+	height: 86px;
+	margin-left: 107px;
+}
+.redendlist3 img{
+	margin-top:15px;
+}
+.blackend{
+	width: 100%;
+	height: 248px;
+	margin:0 auto;
+	background: url(../img/shouye/bottom/dibuheisebeijing.png) no-repeat center center;
+}
+.blackend1{
+	width: 1200px;
+	height: 150px;
+	margin:0 auto;
+}
+.blackend1 li{
+	float: left;
+}
+.xiaobiaoti{
+	width: 67px;
+	height: 20px;
+	color: #f5f5f5;
+	font-size: 16px;
+	margin-top:5px;
+	margin-bottom: 11px;
+}
+.blackend1 a{
+	color: #f5f5f5;
+	font-size: 14px;
+}
+.blacklist1{
+	width: 95px;
+	height: 115px;
+	margin-left: 11px;
+	margin-right: 88px;
+	margin-top:20px;
+	line-height: 26px;
+}
+.blacklist2{
+	width: 95px;
+	height: 115px;
+	margin-right: 88px;
+	margin-left:88px;
+	margin-top:20px;
+	line-height: 26px;
+}
+.blacklist3{
+	width: 95px;
+	height: 115px;
+	margin-left: 88px;
+	margin-top:20px;
+	line-height: 26px;
+}
+.blackend2{
+	width: 1200px;
+	height: 71px;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+.lastline{
+	width: 1200px;
+	height: 18px;
+	margin: 0 auto;
+	text-align: center;
+	color: #7d7d7d
+}
+.lastline a{
+	color: #7d7d7d;
+}
+.lastline1{
+	width: 1200px;
+	height: 16px;
+	margin: 0 auto;
+	margin-top: 18px;
+	text-align: center;
+	color: #7d7d7d
+}
+
